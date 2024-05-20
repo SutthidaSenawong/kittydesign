@@ -1,5 +1,4 @@
 import React, { useEffect } from 'react';
-import logo from '../assets/kitty-logo.png';
 
 export default function Pricing() {
   useEffect(() => {
