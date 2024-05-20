@@ -1,7 +1,7 @@
 import React from 'react';
 import { useState } from 'react';
 import { NavLink } from 'react-router-dom';
-import logo from '../assets/kitty-logo.png';
+
 export default function Header() {
   const activeStyles = {
     fontWeight: 'bold',
@@ -12,7 +12,7 @@ export default function Header() {
   return (
     <header>
       <NavLink to="/" className="site-logo">
-        <img src={logo} className="img-logo" />
+        <img src="kitty-logo.png" className="img-logo" />
       </NavLink>
       <nav>
         <NavLink

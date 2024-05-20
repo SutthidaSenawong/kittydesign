@@ -1,12 +1,12 @@
 import React from 'react';
-import ProfileImg from '../assets/Fah.jpeg';
+// import ProfileImg from '../assets/Fah.jpeg';
 
 export default function About() {
   const recipientEmail = 'sutthida.sen@gmail.com';
   return (
     <div className="about-container">
       <div className="img-container">
-        <img src={ProfileImg} className="about-img" />
+        <img src="Fah.jpeg" className="about-img" />
       </div>
       <div className="about-text">
         <h1>Hello there! My name is Fah</h1>

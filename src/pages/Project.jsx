@@ -1,8 +1,8 @@
 import React, { useEffect } from 'react';
-import vanlife from '../assets/vanlife.png';
-import foodApp from '../assets/foodApp.png';
-import travel from '../assets/travel-journal.png';
-import movie from '../assets/movie-watchlist.png';
+// import vanlife from '../assets/vanlife.png';
+// import foodApp from '../assets/foodApp.png';
+// import travel from '../assets/travel-journal.png';
+// import movie from '../assets/movie-watchlist.png';
 
 export default function Project() {
   useEffect(() => {
@@ -35,20 +35,20 @@ export default function Project() {
           <h1>My Project</h1>
           <p>vans rental website</p>
         </div>
-        <img src={vanlife} />
+        <img src="vanlife.png" />
       </div>
 
       <div className="project-2 hidden">
         <p>Food ordering app</p>
-        <img src={foodApp} />
+        <img src="foodApp.png" />
       </div>
       <div className="project-3 hidden">
         <p>Travel journal</p>
-        <img src={travel} />
+        <img src="travel-journal.png" />
       </div>
       <div className="project-4 hidden">
         <p>Movie watchlist</p>
-        <img src={movie} />
+        <img src="movie-watchlist.png" />
       </div>
     </div>
   );
