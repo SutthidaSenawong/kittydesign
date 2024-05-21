@@ -31,7 +31,7 @@ export default function Home() {
       <div>
         <h1>
           <span>Empower Your Business.</span> <br />
-          with a captivating website. Helo Hello
+          with a captivating website.
         </h1>
         <p>Let's unlock the full potential of your brand.</p>
       </div>
