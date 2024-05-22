@@ -33,7 +33,7 @@ export default function Home() {
           <span>Empower Your Business.</span> <br />
           with a captivating website.
         </h1>
-        <p>Let's unlock the full potential of your brand.</p>
+        <p>Let's unlock the full potential of your brand. Hello</p>
       </div>
       <Link to="/pricing" className="btn">
         Check the price
